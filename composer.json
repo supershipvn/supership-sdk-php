@@ -1,0 +1,32 @@
+{
+    "name": "supershipvn/supership-sdk-php",
+    "homepage": "https://github.com/supershipvn/supership-sdk-php",
+    "description": "SuperShip SDK for PHP - Use SuperShip in your PHP project",
+    "keywords": ["supership", "sdk", "php"],
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "SuperTek",
+            "email": "supertek@supership.vn"
+        }
+    ],
+    "support": {
+        "issues": "https://github.com/supershipvn/supership-sdk-php/issues"
+    },
+    "require": {
+        "php": ">=5.4",
+        "ext-curl": "*",
+        "ext-json": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "SuperShip\\": "src/"
+        }
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
