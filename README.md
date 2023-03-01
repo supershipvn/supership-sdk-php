@@ -256,14 +256,14 @@ $provinceCode = '79';
 $supership->getDistricts($provinceCode);
 ```
 
-#### Get All Districts
+#### Get All Communes
 
-To retrieve all districts, call the `getDistricts` method using the following syntax:
+To retrieve all communes, call the `getCommunes` method using the following syntax:
 
 ```php
-$provinceCode = '79';
+$districtCode = '777';
 
-$supership->getDistricts($provinceCode);
+$supership->getCommunes($districtCode);
 ```
 
 ## Changelog
