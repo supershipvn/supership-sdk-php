@@ -2,7 +2,7 @@
 
 <a href="https://packagist.org/packages/supershipvn/supership-sdk-php"><img src="https://img.shields.io/packagist/dt/supershipvn/supership-sdk-php" alt="Total Downloads"></a>
 <a href="https://packagist.org/packages/supershipvn/supership-sdk-php"><img src="https://img.shields.io/packagist/v/supershipvn/supership-sdk-php" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/supershipvn/supership-sdk-php"><img src="https://img.shields.io/packagist/l/supershipvn/supership-sdk-php" alt="License"></a>
+<a href="https://packagist.org/packages/supershipvn/supership-sdk-php"><img src="https://img.shields.io/github/license/supershipvn/supership-sdk-php" alt="License"></a>
 </p>
 
 ## Introduction
