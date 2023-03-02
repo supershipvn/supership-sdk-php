@@ -19,7 +19,7 @@ class SuperShipClient extends SuperShipBase
         return $this->get($url);
     }
 
-    public function getDistricts($provinceCode)
+    public function getDistricts($provinceCode = '')
     {
         $this->setFullUrl('areas', 'district?province='.$provinceCode);
         $url = $this->getFullUrl();
@@ -27,7 +27,7 @@ class SuperShipClient extends SuperShipBase
         return $this->get($url);
     }
 
-    public function getCommunes($districtCode)
+    public function getCommunes($districtCode = '')
     {
         $this->setFullUrl('areas', 'commune?district='.$districtCode);
         $url = $this->getFullUrl();
@@ -69,7 +69,7 @@ class SuperShipClient extends SuperShipBase
         return $this->post($url, json_encode($params));
     }
 
-    public function getOrderInfo($code, $type = '1')
+    public function getOrderInfo($code = '', $type = '1')
     {
         $params = [
             'code' => $code,
@@ -100,7 +100,7 @@ class SuperShipClient extends SuperShipBase
         return $this->post($url, json_encode($params));
     }
 
-    public function getPrintLink($printToken, $sizeLabel = 'K46')
+    public function getPrintLink($printToken = '', $sizeLabel = 'K46')
     {
         $params = [
             'token' => $printToken,
@@ -148,7 +148,7 @@ class SuperShipClient extends SuperShipBase
         return $this->get($url);
     }
 
-    public function registerWebhook($partnerUrl)
+    public function registerWebhook($partnerUrl = '')
     {
         $this->setFullUrl('webhooks', 'create');
         $url = $this->getFullUrl();
